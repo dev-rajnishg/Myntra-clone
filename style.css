@@ -1,0 +1,198 @@
+ /* navbar css */
+ #nav{
+    display: flex;
+    border: 0px solid;
+    justify-content:space-between;
+    align-items: center;
+    padding:0px 4%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: sticky;
+    top:0px;
+    background-color: white;
+    margin-top: -8px;
+}    
+#nav>div{
+    border: 0px solid;
+}
+#nav>div:nth-child(1)>img{
+    width: 100%;
+    cursor: pointer;
+}
+#nav>div:nth-child(1){
+    width: 8%;
+}
+#nav>div:nth-child(2){
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+#nav>div:nth-last-child(1){
+    width:11%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    border: 0px solid;
+}
+#nav>div:nth-last-child(1)>div{
+    border: 0px solid;
+    text-align:center;
+    display: grid;
+    padding-top: 15px;
+}
+
+#nav>div:nth-child(3)>input{
+    padding: 10px;
+    width:100%;
+    background-color: azure;
+}
+
+#nav_search{
+    display:flex;
+    width:25%;
+    align-items: center;
+    background-color: azure;
+}
+#nav_cat>div:hover{
+    cursor: pointer;
+}
+/* #nav>div:nth-last-child(1):hover{
+    cursor:pointer;
+} */
+#drop{  
+    border:0px solid;
+    height: 400px;
+    width:72%;
+    background-color: green;
+    position:fixed;
+    top:72px;
+    left:200px;
+    display:none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+#drop>div>div{
+    width: 20%;
+    padding: 12px;
+    line-height: 7px;
+    
+}
+#drop>div>div>p:hover{
+    cursor: pointer;
+    font-weight: bolder;
+}
+#profile_drop{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border:1px solid white;
+    line-height: 50%;
+    width:20%;
+    position:fixed;
+    top:85px;
+    left:79%;
+    display: none;
+    padding-left: 10px;
+    background-color: white;
+}
+#profile_drop>p:hover{
+    font-weight: bolder;
+    cursor: pointer;
+}
+.nav-color{
+    color: red;
+    font-weight: bolder;
+}
+hr{
+    border: 1px solid gainsboro;
+}
+
+
+
+/* landing page css */
+#landing_page img{
+    width: 100%;
+    cursor: pointer;
+}
+#lp_sale{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 0px;
+    /*border: 1px solid;*/
+}
+#lp_sale>div{
+    margin-top: -5px;
+}
+#lp_offers{
+    display: flex;
+}
+#lp_omg_deals{
+    display: flex;
+}
+#lp_budget_buys{
+    display: flex;
+}
+#lp_top_categories{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+}
+#lp_top_brands{
+    display: flex;
+}
+#lp_shop_by_categories{
+    display: grid;
+    grid-template-columns: repeat(6,1fr); 
+    grid-template-rows: repeat(5,1fr);
+}
+#landing_page{
+    margin-bottom: 40px;
+}
+
+
+
+
+#lp{
+background-color:aliceblue;
+padding-top: 30px;
+}
+#lp_footer{
+width: 80%;
+border: 0px solid;
+margin: auto;
+/* background-color:; */
+}
+#foot_social{
+display: flex;
+}
+/* #lp_footer img{
+width: 100%;
+} */
+#foot_social>div{
+display: flex;
+}
+.image{
+display: flex;
+}
+#foot_social>div:nth-child(1){
+border: 0px solid red;
+width: 30%;
+}
+#foot_social>div:nth-child(2){
+border: 0px solid green;
+width: 70%;
+}
+#foot_social>div:nth-child(2)>div:nth-child(1){
+border: 0px solid;
+width: 50%;
+}
+#app>img{
+width: 40%;
+}
+
+#foot_popular>div{
+display: flex;
+justify-content: space-between;
+}
+
+#foot_address{
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+}
